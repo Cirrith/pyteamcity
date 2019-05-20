@@ -1,4 +1,10 @@
 class Locator(object):
+    """[summary]
+
+    Attributes:
+        dims (list): # TODO:
+    """
+
     dims = []
 
     def __init__(self):
@@ -9,4 +15,4 @@ class Locator(object):
         self._preds.append((dim, value))
 
     def __str__(self):
-        return ','.join(['%s:%s' % p for p in self._preds])
+        return ",".join(["%s:%s" % p for p in self._preds])
